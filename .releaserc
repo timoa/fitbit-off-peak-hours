@@ -1,7 +1,7 @@
 {
   "repositoryUrl": "https://github.com/timoa/fitbit-off-peak-hours.git",
   "branches": [
-    "master",
+    "main",
     "develop"
   ],
   "tagFormat": "v${version}",
