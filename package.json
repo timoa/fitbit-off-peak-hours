@@ -1,0 +1,38 @@
+{
+  "name": "fitbit-off-peaks-hours",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timoa/fitbit-off-peaks-hours.git"
+  },
+  "author": {
+    "name": "Damien Laureaux",
+    "email": "d.laureaux@timoa.com",
+    "url": "https://timoa.com"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "b96553d5-6027-4af6-be06-8c301fa77c41",
+    "appType": "app",
+    "appDisplayName": "Off-peak Hours",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Off-peak Hours"
+      },
+      "fr-FR": {
+        "name": "Heures Creuses"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
