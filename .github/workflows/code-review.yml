@@ -4,9 +4,9 @@ on: [pull_request]
 
 jobs:
 
-  # -- DOCKER -----------------------------------------------------------------
-  hadolint:
-    name: runner / hadolint
+  # -- ESLINT -----------------------------------------------------------------
+  eslint:
+    name: Code Review / ESLint
     runs-on: ubuntu-latest
 
     steps:
