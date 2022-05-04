@@ -15,4 +15,4 @@ jobs:
         uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748 # tag=v3.0.1
 
       - name: Run ESLint
-        uses: reviewdog/action-eslint@48a0377239b23534996517492127d850dd9b7642 # tag=v1.16.0
+        uses: reviewdog/action-eslint@d6a47b22eca76f72d6c18b6874bb26b84edf09fe # tag=v1.16.2
