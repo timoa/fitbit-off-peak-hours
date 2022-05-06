@@ -11,6 +11,7 @@ jobs:
 
   # -- TESTS ------------------------------------------------------------------
   tests:
+    name: Tests
     runs-on: ubuntu-latest
 
     strategy:
@@ -32,6 +33,7 @@ jobs:
 
   # -- SONARCLOUD -------------------------------------------------------------
   code-quality:
+    name: Code Quality
     runs-on: ubuntu-latest
     needs: tests
 
@@ -52,6 +54,7 @@ jobs:
 
   # -- SAST SCAN --------------------------------------------------------------
   code-security:
+    name: Code Security
     runs-on: ubuntu-latest
     needs: tests
     # Skip any PR created by dependabot to avoid permission issues
@@ -74,8 +77,9 @@ jobs:
           name: reports
           path: reports
 
-  # -- RELEASE ----------------------------------------------------------------
-  release:
+  # -- PRE-RELEASE ------------------------------------------------------------
+  pre-release:
+    name: Prepare Release
     runs-on: ubuntu-latest
     needs:
       - code-quality

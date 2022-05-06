@@ -6,11 +6,10 @@ jobs:
 
   # -- ESLINT -----------------------------------------------------------------
   eslint:
-    name: Code Review / ESLint
+    name: ESLint
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748 # tag=v3.0.1
 
