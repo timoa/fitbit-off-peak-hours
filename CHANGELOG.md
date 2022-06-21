@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/timoa/fitbit-off-peak-hours/compare/v0.2.1...v0.2.2) (2022-06-21)
+
+
+### Bug Fixes
+
+* **cicd:** update the label name for the dependencies ([07ff56e](https://github.com/timoa/fitbit-off-peak-hours/commit/07ff56ec037a92df84e85d72d38566653a2bece0))
+
 ## [0.2.1](https://github.com/timoa/fitbit-off-peak-hours/compare/v0.2.0...v0.2.1) (2022-04-29)
 
 # [0.2.0](https://github.com/timoa/fitbit-off-peak-hours/compare/v0.1.0...v0.2.0) (2022-04-25)
