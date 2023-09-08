@@ -23,7 +23,7 @@
     "@fitbit/sdk": "6.1.0",
     "acorn": "8.10.0",
     "acorn-jsx": "5.3.2",
-    "chai": "4.3.7",
+    "chai": "4.3.8",
     "chai-as-promised": "7.1.1",
     "chai-http": "4.4.0",
     "eslint": "8.47.0",
